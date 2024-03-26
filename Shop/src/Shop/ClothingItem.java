@@ -31,12 +31,12 @@ public class ClothingItem {
 			this.size = size;
 		}
 	}
-	
-	@Override
 	public String toString() {
 		return ("----------------------------------------"
 				+ "\nNombre\t\tPrecio\t\tTamaño"
 				+"\n----------------------------------------\n"
 				+name+"\t\t"+price+"\t\t"+size);
 	}
+	
+	
 }

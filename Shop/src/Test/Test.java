@@ -9,10 +9,8 @@ public class Test {
 		System.out.println(item1.toString());
 		invent1.addItem(item1);
 		invent1.addItem(item2);
-		System.out.println(invent1.checkStock(item1));
-		invent1.removeItem(item1);
-		System.out.println(invent1.checkStock(item1));
-		
+		invent1.addItem(item2);
+		System.out.println(invent1);
 	}
 
 }
